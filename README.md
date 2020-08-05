@@ -4,6 +4,7 @@ More about the game [on this wikipedia page.](https://en.wikipedia.org/wiki/Ulti
 
 ## Play against the AI or with a friend
 Go to [this website](https://prozap.github.io/Ultimate-tic-tac-toe/) to play the game.
+Use [Brave Browser](https://brave.com/) for the best performance.
 
 ## About the AI
 It's a very basic implementation of the [Monte Carlo tree search algorithm](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) for the game so the AI is not very strong.
