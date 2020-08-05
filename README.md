@@ -1,6 +1,6 @@
 # Ultimate Tic-Tac-Toe
 For people who mastered tic-tac-toe, Ultimate tic-tac-toe is a nested version of the game.
-More about the game [here.](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe)
+More about the game [on this wikipedia page.](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe)
 
 ## Play against the AI or with a friend
 Go to [this website](https://prozap.github.io/Ultimate-tic-tac-toe/) to play the game.
