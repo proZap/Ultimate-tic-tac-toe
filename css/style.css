@@ -189,18 +189,18 @@ p {
 
 .settingTitle {
     width: 520px;
-    height: 80px;
-    line-height: 80px;
+    height: fit-content;
     font-size: 40px;
     text-align: center;
     background: inherit;
-    margin-top: 117.5px;
+    margin-top: 140px;
     display: inline-block;
 }
 
 .setTurn {
     width: 520px;
     height: 30px;
+    margin-top: 30px;
     background: inherit;
 }
 
