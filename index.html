@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="title">Ultimate Tic Tac Toe</h1>
+            <a class="new-game" onclick="reset()">Restart</a>
+            <a class="setting" onclick="openSetting()">Setting</a>
+        </div>
+        <div class="gameContainer">
+            <div class="mainGrid">
+                <div class="mainRow">
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainRow">
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainRow">
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainCell">
+                        <p></p>
+                        <div class="subGrid">
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                            <div class="subRow">
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                                <div class="subCell"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="endMessage">
+                X wins
+            </div>
+            <div class="settingPage">
+                <div class="settingTitle">Setting</div>
+                <div class="setTurn">
+                    <p>AI turn:</p>
+                    <select id="setAITurn">
+                        <option>None</option>
+                        <option>First</option>
+                        <option selected>Second</option>
+                        <option>Both</option>
+                    </select>
+
+                </div>
+                <div class="setTime">
+                    <label for="thinkingTime">Time to think (search), in seconds: </label>
+                    <input type="number" id="thinkingTime" name="thinkingTime" min="0" max="10" value="1">
+                </div>
+                <div class="buttonsContainer">
+                    <a class="finish" onclick="submit()">Done</a>
+                    <a class="close" onclick="closeSetting()">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/ai.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

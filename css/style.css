@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 40px 0;
+}
+
+h1.title {
+    font-size: 24px;
+    width: 260px;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    line-height: 40px;
+}
+
+.container {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.heading {
+    height: 40px;
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 120px;
+    display: inline-block;
+    background: #91aaba;
+    border-radius: 3px;
+    text-decoration: none;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    color: #000000;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.new-game {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.gameContainer {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 520px;
+    height: 520px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #f3f3f3;
+    background: #1e1e1e;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mainGrid {
+    top: 0;
+    width: 480px;
+    height: 480px;
+    margin: 20px;
+    background: #f1c40f;
+}
+
+.mainRow{
+    background: #f1c40f;
+    width: 480px;
+    height: 150px;
+    margin-bottom: 15px; 
+}
+.mainRow:last-child {
+    margin-bottom: 0;
+}
+.mainRow:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mainCell {
+    width: 150px;
+    height: 150px;
+    float: left;
+    line-height: 150px;
+    font-size: 125px;
+    text-align: center;
+    color: #f3f3f3;
+    margin-right: 15px;
+    background: #1e1e1e;
+    font-weight: 540;
+}
+.mainCell:last-child {
+    margin-right: 0;
+}
+
+.subGrid {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    opacity: 1;
+    background: #f3f3f3;
+    transition: opacity 0.2s, background 0.2s;
+}
+
+.subRow {
+    width: 120px;
+    height: 36px;
+    margin-bottom: 6px;
+    transition: width 0.2s, height 0.2s, margin-bottom 0.2s;
+    background: inherit;
+}
+
+.subRow:last-child {
+    margin-bottom: 0;
+}
+
+.subCell {
+    width: 36px;
+    font-size: 0px;
+    height: 36px;
+    margin-right: 6px;
+    background: #1e1e1e;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    transition: width 0.2s, height 0.2s, margin-right 0.2s, font-size 0.2s, line-height 0.2s;
+}
+
+.subCell:last-child {
+    margin-right: 0;
+}
+
+p {
+    font-size: 0;
+    font-weight: 400;
+    background: #1e1e1e;    
+    transition: font-size 0.2s;
+}
+
+.endMessage {
+    pointer-events: none;
+    width: 520px;
+    height: 520px;
+    line-height: 520px;
+    text-align: center;
+    font-size: 80px;
+    opacity: 0;
+    backdrop-filter: none;
+    background-color: rgba(18, 18, 18, 0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: opacity 1s, backdrop-filter 1s;
+}
+
+.settingPage {
+    pointer-events: none;
+    opacity: 0;
+    width: 520px;
+    height: 520px;
+    background: #272727;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: opacity 0.4s;
+}
+
+.settingTitle {
+    width: 520px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+    background: inherit;
+    margin-top: 117.5px;
+    display: inline-block;
+}
+
+.setTurn {
+    width: 520px;
+    height: 30px;
+    background: inherit;
+}
+
+.setTurn p {
+    width: fit-content;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 30px;
+    background: inherit;
+}
+
+#setAITurn {
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.setTime {
+    width: 520px;
+    height: 30px;
+    margin-top: 15px;
+    background: inherit;
+}
+
+.setTime label {
+    width: fit-content;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 30px;
+    background: inherit;
+}
+
+#thinkingTime {
+    height: 26px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.buttonsContainer {
+    height: 40px;
+    width: 520px;
+    margin-top: 30px;
+    background: inherit;
+}
+
+.finish {
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    width: 100px;
+    margin-left: 140px;
+    margin-right: 40px;
+}
+
+.close {
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    width: 100px;
+}
