@@ -7,4 +7,4 @@ Go to [this website](https://prozap.github.io/Ultimate-tic-tac-toe/) to play the
 
 ## About the AI
 It's a very basic implementation of the [Monte Carlo tree search algorithm](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) for the game so the AI is not very strong.
-However it can search very fast (up to 50000 iterations per second) so a better playout strategy and proper exploration parameter tuning will make this AI a lot better.
+However it can search very fast (up to 20000 iterations per second) so a better playout strategy and proper exploration parameter tuning will make this AI a lot better.
