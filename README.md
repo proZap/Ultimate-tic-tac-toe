@@ -3,7 +3,7 @@ For people who mastered tic-tac-toe, Ultimate tic-tac-toe is a nested version of
 More about the game [on this wikipedia page.](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe)
 
 ## Play against the AI or with a friend
-Go to [this website](https://prozap.github.io/Ultimate-tic-tac-toe/) to play the game.
+Go to [this website](https://ziap.github.io/Ultimate-tic-tac-toe/) to play the game.
 Use [Brave Browser](https://brave.com/) for the best performance.
 
 ## About the AI
